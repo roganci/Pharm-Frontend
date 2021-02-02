@@ -11,13 +11,16 @@
     "lint": "npm run lint:js"
   },
   "dependencies": {
+    "@hyjiacan/vue-slideout": "^3.0.0-beta1",
     "@nuxtjs/axios": "^5.12.5",
     "@nuxtjs/pwa": "^3.3.4",
     "bootstrap-vue": "^2.21.2",
     "core-js": "^3.8.2",
     "node-sass": "^5.0.0",
     "nuxt": "^2.14.12",
-    "sass-loader": "^10.1.1"
+    "nuxt-gsap": "^0.1.4",
+    "sass-loader": "^10.1.1",
+    "vue-slideout": "^1.8.0"
   },
   "devDependencies": {
     "@nuxtjs/eslint-config": "^5.0.0",

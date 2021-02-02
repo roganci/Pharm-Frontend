@@ -20,7 +20,8 @@ module.exports = {
     }),
     backgroundColor: theme => ({
       'primary' : '#2F80ED',
-      'secondary' : '#E0E0E0'
+      'secondary' : '#E0E0E0',
+      'white' : '#FFFFFF'
     }),
     backgroundImage: theme => ({
       'hero' : 'url("../uwi-hero.png")',
