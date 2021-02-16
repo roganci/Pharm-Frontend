@@ -19,16 +19,32 @@
       </form>
 
       <div class="flex w-1/4 px-10">
-        <img src="~assets/profile.png" alt="" class="pr-10" />
+        <img
+          src="~assets/profile.png"
+          alt=""
+          class="pr-10"
+          @click="visible = true"
+        />
         <img src="~assets/basket.png" alt="" class="pr-10" />
       </div>
     </nav>
 
+    <slideout v-model="visible" dock="right" title="Exit Panel">
+      <Cart />
+    </slideout>
   </div>
 </template>
 
 <script>
-export default {}
-</script>
+import SignUpForm from './SignUpForm.vue'
+import LogInForm from './LogInForm.vue'
+import Cart from './Cart.vue'
 
-<style></style>
+export default {
+  data() {
+    return {
+      visible: false,
+    }
+  },
+}
+</script>
