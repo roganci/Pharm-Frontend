@@ -8,22 +8,24 @@
       <br />
 
       <div class="flex m-10">
-        <img src="@/assets/med.png" alt="" class="product-img w-1/4"/>
+        <img src="@/assets/med.png" alt="" class="product-img w-1/4" />
 
-        <div class="product-info ml-40 w-3/4 text-gray-800 flex flex-col justify-between">
+        <div
+          class="product-info ml-40 w-3/4 text-gray-800 flex flex-col justify-between"
+        >
           <h1 class="text-2xl">Medicine</h1>
-          
+
           <p>
             <span class="text-xl">$50.00</span>
-            <br>  
-            <br>
+            <br />
+            <br />
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel
             nunc fermentum, convallis sem vitae, ornare lectus. Interdum et
             malesuada fames ac ante ipsum primis in faucibus. Nam convallis
             libero purus, vitae sollicitudin lorem consectetur vitae. Sed vel
             nibh id ipsum tempor aliquet. Nullam vel eros augue.
-            <br>
-            <br>
+            <br />
+            <br />
             Code: 0000
           </p>
 
@@ -39,7 +41,7 @@
             <button class="button bg-primary p-4 text-white w-1/2">
               Add to Cart
             </button>
-          </div> 
+          </div>
         </div>
       </div>
     </div>

@@ -65,16 +65,15 @@
     </div>
 
     <p>Total price: <b>$150</b></p>
-    <br>
+    <br />
 
     <button
-        id="submit"
-        type="submit"
-        class="button bg-primary p-4 w-3/4 text-white mb-10 text-lg"
-      >
-        Go to Checkout
-      </button>
-
+      id="submit"
+      type="submit"
+      class="button bg-primary p-4 w-3/4 text-white mb-10 text-lg"
+    >
+      Go to Checkout
+    </button>
   </div>
 </template>
 

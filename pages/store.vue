@@ -2,16 +2,15 @@
   <div>
     <Header />
     <main>
-        <div class="m-10">
-            <h2 class="text-gray-500">Store</h2>
-            <br>
-            <hr>
+      <div class="m-10">
+        <h2 class="text-gray-500">Store</h2>
+        <br />
+        <hr />
 
-            <div>
-                <Listing />
-            </div>
-
+        <div>
+          <Listing />
         </div>
+      </div>
     </main>
   </div>
 </template>

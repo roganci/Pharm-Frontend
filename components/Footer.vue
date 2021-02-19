@@ -1,7 +1,8 @@
 <template>
-  <div class="bg-secondary w-screen h-screen/3 flex items-center justify-center">
+  <div
+    class="bg-secondary w-screen h-screen/3 flex items-center justify-center"
+  >
     <div class="partitions w-1/2 flex justify-between">
-      
       <div class="quick-links">
         <h3 class="text-xl">Quick Links</h3>
         <ul aria-label="Quick Links" class="mt-5">
@@ -9,7 +10,7 @@
           <li>About</li>
         </ul>
       </div>
-      
+
       <div class="shopping">
         <h3 class="text-xl">Shopping</h3>
         <ul aria-label="Shopping" class="mt-5">
@@ -27,10 +28,8 @@
           <li>My Orders</li>
         </ul>
       </div>
-
     </div>
   </div>
 </template>
 
-<script>
-</script>
+<script></script>

@@ -7,10 +7,8 @@
         <h1 class="text-black text-5xl">Checkout</h1>
 
         <div class="order-details m-10 bg-secondary h-screen w-1/2 rounded p-4">
-            <h2 class="text-black text-xl">Review Order</h2>
-            
+          <h2 class="text-black text-xl">Review Order</h2>
         </div>
-
       </div>
     </div>
   </div>
